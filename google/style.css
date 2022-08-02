@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Fira+Sans&family=Inter:wght@300&family=Montserrat:wght@300&family=Mukta:wght@300;400&family=Oswald:wght@500&family=PT+Sans&family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    user-select: none;
+}
+
+.main img{
+    width: 272px;
+    height: 92px;
+    padding-left: 20%;
+}
+
+.main{
+    margin-top: 14%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.search{
+    width: 450px;
+    height: auto;
+    border-radius: 20pt;
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 2%;
+    border: 1px solid gray;
+    transition: 0.2s;
+    color: gray;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search:hover{
+    background-color: gray;
+    color: white;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search .fa-magnifying-glass{
+    display: flex;
+}
+
+
+.search .fa-microphone{
+    padding-left: 235px;
+}
+
+.searchbutton button{
+    outline: none;
+    border: none;
+    margin-top: 6%;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.searchbutton button:hover{
+    background-color: #d1d1d1;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+header p{
+    padding: 5px;
+    transition: 0.2s;
+}
+
+header button{
+    border: none;
+    outline: none;
+    background-color: #007fff;
+    height: 35px;
+    border-radius: 5px;
+    margin: 14px;
+    width: 80px;
+    color: white;
+    box-shadow: 0 2px 4px rgb(102, 102, 102);
+    transition: 0.2s;
+}
+
+header button:hover{
+    background-color: #136ec9;
+}
+
+header p:hover{
+    color: blue;
+}
