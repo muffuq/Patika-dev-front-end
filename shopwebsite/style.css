@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://images.pexels.com/photos/10044794/pexels-photo-10044794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+nav li a i{
+    margin: 3px;
+}
+
+nav li a:hover{
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: beige;
+}
+
+.first{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.1%;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first:hover{
+    transform: scale(1.02);
+}
+
+.infocon{
+    width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0.4%;
+    margin-top: 5%;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.infocon:hover{
+  transform: scale(1.02);
+}
+
+.infocon img{
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 120px;
+}
+
+.infocon h2{
+    margin-left: 2%;
+}
+
+.row{
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 2%;
+    position: relative;
+    left: 12%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+
+  .card:hover{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.07);
+  }
+
+  .card img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .price{
+    color: green;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 0.5em;
+  }
